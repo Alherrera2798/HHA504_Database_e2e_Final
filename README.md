@@ -14,8 +14,15 @@
 ## Step 2: Connect to Virtual Machine via Terminal:
 ### Open Windows Terminal and connect to VM
 #### o	Terminal Command: ssh e2e@ 20.127.54.159
-####  - Username and password
+####    - Username and password
 #### o	IP address on the Azure overview page for the instance.
-#### -	Update UBUNTU server
+####  -	Update UBUNTU server
 #### o	Terminal Command: sudo apt-get update
 
+## Step 3: Installing MySQL to terminal 
+#### o	Terminal Command: sudo apt-get mysql-client mysql-server
+#### o	Enter to mysql server via terminal command
+####  - Terminal Command: sudo mysql
+#### o	Show any available databases 
+####  - Terminal Commmand: sudo mysql
+####  - MySQL Command Via Terminal: SHOW DATABASES;
