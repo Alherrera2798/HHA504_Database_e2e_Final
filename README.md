@@ -4,11 +4,18 @@
 
 ## *Following steps are*
 
-## STEP 1: Setup and deploy EC2:
+## Step 1: Setup and deploy EC2:
 ### Launch Azure Virtual Machine:
 #### - Use Ubuntu Gen1
 #### - Create username and password
 #### - Inbound rule for MySQL by adding port 3306 under networking
 #### - Review configs and Create the Virtual Machine
 
+## Step 2: Connect to Virtual Machine via Terminal:
+### Open Windows Terminal and connect to VM
+#### o	Terminal Command: ssh e2e@ 20.127.54.159
+####  - Username and password
+#### o	IP address on the Azure overview page for the instance.
+#### -	Update UBUNTU server
+#### o	Terminal Command: sudo apt-get update
 
