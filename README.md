@@ -5,10 +5,10 @@
 ## *Following steps are*
 
 ## STEP 1: Setup and deploy EC2:
-## Launch Azure Virtual Machine:
-## - Use Ubuntu Gen1
-## - Create username and password
-## - Inbound rule for MySQL by adding port 3306 under networking
-## - Review configs and Create the Virtual Machine
+### Launch Azure Virtual Machine:
+#### - Use Ubuntu Gen1
+#### - Create username and password
+#### - Inbound rule for MySQL by adding port 3306 under networking
+#### - Review configs and Create the Virtual Machine
 
 
